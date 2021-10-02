@@ -1,0 +1,4 @@
+/* pages/delete/delete.wxss */
+.delete{
+  border: solid red 1px;
+}

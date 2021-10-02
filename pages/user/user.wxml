@@ -1,0 +1,15 @@
+<!--未登录-->
+<view class="load" wx:if="{{!loginOk}}">
+  <image src="/pic/logo.jpg" bindtap="load" class="logo"></image>
+  <!-- <text class="clickload" bindtap="load">点击登录</text> -->
+  <image class="in" bindtap="load" src="/pic/in.png"></image>
+</view>
+<!--已登录-->
+<view wx:else class="container">
+  <view class="load">
+    <image src="{{avatarUrl}}" class="logo"></image>
+    <text class="clickload">{{nickName}}</text>
+  </view>
+  <!-- <button class="exit" bindtap="exit" type="primary">退出登录</button> -->
+  <image src="/pic/out.png" bindtap="exit" class="exit"></image>
+</view>

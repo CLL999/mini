@@ -1,0 +1,28 @@
+<view class="body">
+  <text class="h1">qianchen.ink</text>
+  <view class="content">
+    <view class="content_container">
+      <view class="content_container_text">
+        Hello
+      </view>
+
+      <view class="content_container_list">
+        <view class="content_container_list_item">world !</view>
+        <view class="content_container_list_item">friend !</view>
+        <view class="content_container_list_item">users !</view>
+        <view class="content_container_list_item">qianchen !</view>
+      </view>
+    </view>
+  </view>
+  <text class="down">主页复刻版小程序</text>
+</view>
+
+<modal
+  title="前尘旧梦小程序上线啦"
+  hidden="{{hiddenModal}}"
+  confirm-text="确定"
+  bindconfirm="confirm"
+  no-cancel = "true"
+  >
+  当前版本v1.0，目前搜索仅支持搜索用户名。如遇bug或有视觉建议与意见，请投递邮箱cirnoqvq@163.com
+  </modal>

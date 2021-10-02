@@ -1,0 +1,78 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/image/image",
+          "pathName": "pages/image/image",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/user",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/load/load",
+          "pathName": "pages/load/load",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/music/music",
+          "pathName": "pages/music/music",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/blog/blog",
+          "pathName": "pages/blog/blog",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/todo/todo",
+          "pathName": "pages/todo/todo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/preview/preview",
+          "pathName": "pages/preview/preview",
+          "query": "title=bb&author=undefined&content=undefined",
+          "scene": null
+        },
+        {
+          "name": "pages/submit/submit",
+          "pathName": "pages/submit/submit",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/find/find",
+          "pathName": "pages/find/find",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

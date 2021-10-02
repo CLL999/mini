@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/blog/blog",
+    "pages/user/user",
+    "pages/image/image",
+    "pages/music/music",
+    "pages/load/load",
+    "pages/submit/submit",
+    "pages/update/update",
+    "pages/find/find",
+    "pages/delete/delete",
+    "pages/todo/todo",
+    "pages/preview/preview"
+  ],
+  "requiredBackgroundModes": ["audio"],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#81C7D4",
+    "navigationBarTitleText": "前尘旧梦",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list":[
+      {
+           "pagePath":"pages/blog/blog",
+           "text":"博客",
+           "iconPath":"pic/book.png",
+           "selectedIconPath": "pic/here.png"
+      },{
+           "pagePath": "pages/image/image",
+           "text":"摄影集",
+           "iconPath": "pic/view.png",
+           "selectedIconPath": "pic/here.png"
+      },{
+           "pagePath":"pages/index/index",
+           "text":"首页",
+           "iconPath": "pic/science.png",
+           "selectedIconPath": "pic/here.png"
+      },{        
+           "pagePath": "pages/todo/todo",
+           "text":"清单",
+           "iconPath": "pic/notice.png",
+           "selectedIconPath": "pic/here.png"
+      },{
+           "pagePath": "pages/user/user",
+           "text":"用户",
+           "iconPath": "pic/data.png",
+           "selectedIconPath": "pic/here.png"
+       }
+    ]
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

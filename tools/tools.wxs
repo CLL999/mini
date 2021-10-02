@@ -1,0 +1,10 @@
+var replaceBr = function (val) {
+  return val ? val.replace(getRegExp("<br />", "g"), "\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") : val
+}
+
+var replaceLine = function (val) {
+  return val ? val.replace(getRegExp("\\\\n", "g"), "\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;") : val
+}
+
+module.exports.replaceBr = replaceBr
+module.exports.replaceLine = replaceLine

@@ -1,0 +1,35 @@
+input {
+  border: 10rpx solid #ccc;
+  border-radius: 50rpx;
+  background-color: #7AC2A5;
+  margin: 50rpx 30rpx;
+  padding: 20rpx 20rpx;
+}
+
+.area{
+  width: 88%;
+  position: relative;
+  max-width: 800rpx;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0rpx 14rpx 80rpx rgba(34, 35, 58, 0.2);
+  padding: 25rpx;
+  border-radius: 25rpx;
+  height: 390rpx;
+  transition: all 0.3s;
+  margin-top: 77rpx;
+  overflow: hidden;
+}
+
+.show{
+  background-color: white;
+  border-radius: 8px;
+  /* display: inline-block; */
+  word-break: break-all;
+}
+
+page{
+  width: 750rpx;
+  height: 10000rpx;
+  background-color: #a9bfc4;
+}

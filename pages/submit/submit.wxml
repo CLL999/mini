@@ -1,0 +1,5 @@
+<view class="container">
+  <input type="text" name="title" placeholder="这里填标题" value="{{titleinput}}" bindinput="titleinputchange"></input>
+  <textarea name="content" placeholder="正文部分..." value="{{contentinput}}" bindinput="contentinputchange" maxlength="10000"></textarea>
+  <image src="/pic/submit.png" class="submit" bindtap="submit"></image>
+</view>

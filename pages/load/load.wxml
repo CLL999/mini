@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="loadType">
+    <button type="primary" bindtap="loadByWechat">微信授权登录</button>
+  </view>
+</view>

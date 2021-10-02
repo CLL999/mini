@@ -1,0 +1,16 @@
+<view class="container">
+    <view class="header"></view>
+    <image class="last" src="/pic/last.png" bindtap="last"></image>
+    <image class="next" src="/pic/next.png" bindtap="next"></image>
+    <view class="parent">
+      <view class="slider">
+        <image src="{{photo[now].url}}" mode="aspectFill" bindtap="preview"></image>
+      </view>
+    </view>
+    <text class="title">{{photo[now].title}}</text>
+    <text class="line">__________________</text>
+    <text class="author">{{photo[now].author}}</text>
+    <text class="location">{{photo[now].position}}</text>
+    <map class="map" longitude="113.945476" latitude="22.538688" scale="14">
+    </map>
+</view>

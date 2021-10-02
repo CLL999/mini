@@ -1,0 +1,41 @@
+.load{
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  /*设置图片和文字垂直居中对齐*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.load text{
+  color:white;
+}
+
+.container::before{
+  content: "";
+  display:table
+}
+
+.exit{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  bottom: 300rpx;
+  left: 330rpx;
+}
+
+.in {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  bottom: 300rpx;
+  left: 330rpx;
+}

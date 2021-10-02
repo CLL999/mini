@@ -1,0 +1,18 @@
+<wxs src="/tools/tools.wxs" module="tools"></wxs>
+<view class="article">
+  <view class="container" wx:for="{{article}}" wx:key="index" bindtap="Toread" data-index="{{index}}">
+    <view class="area">
+      <view class="show">
+        <view class="title">{{item.title}}</view>
+        <view></view>
+        <view class="author">{{item.author}}</view>
+        <view></view>
+        <text class="content" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{tools.replaceLine(item.content)}}</text>
+      </view>
+    </view>
+  </view>
+  <text class="welcome">欢迎，{{nickName}}</text>
+  <image class="add" src="/pic/add2.png" bindtap="submit"></image>
+  <image class="avatar" src="{{avatarUrl}}"></image>
+  <image class="find" src="/pic/find.png" bindtap="find"></image>
+</view>

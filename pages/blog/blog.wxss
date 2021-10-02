@@ -1,0 +1,104 @@
+.article{
+  box-sizing: border-box;
+  background-color: #7e71f3;
+  background-image: linear-gradient(147deg, #7e71f3 0%, #8bb5f3 74%);
+  min-height: 100%;
+  /* display:ruby-base-container; */
+  flex-wrap: wrap;
+  padding-bottom: 30rpx;
+}
+
+.article::before{
+  content:'';
+  display: table
+}
+
+.container{
+  width: 88%;
+  position: relative;
+  max-width: 800rpx;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0rpx 14rpx 80rpx rgba(34, 35, 58, 0.2);
+  padding: 25rpx;
+  border-radius: 25rpx;
+  height: 390rpx;
+  transition: all 0.3s;
+  margin-top: 77rpx;
+  overflow: hidden;
+}
+
+.area{
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 30rpx;
+}
+
+.show{
+  word-break: break-all;
+  padding-right: 25rpx;
+  transform: translateY(25rpx);
+  transition: all 0.4s;
+  color: #4e4a67;
+  margin-bottom: 30px;
+  line-height: 1.5em;
+  overflow: hidden;
+}
+
+page{
+  width: 750rpx;
+  /* height: 10000rpx; */
+  background-color: #a9bfc4;
+
+}
+
+
+.title{
+  font-size: x-large ;
+  font-weight: bolder;
+}
+
+.author{
+  font-size: larger;
+  font-weight: lighter;
+}
+
+.avatar {
+  position: fixed;
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 45rpx;
+  right: 33rpx;
+  bottom: 60rpx;
+}
+
+.welcome {
+  position: fixed;
+  font-size: larger;
+  font-weight: 800;
+  bottom: 8rpx;
+  right: 0;
+  color: palevioletred;
+}
+
+.add {
+  /* position: fixed ; */
+  /* width: 33 rpx;
+  height: 60 rpx; */
+  width: 140rpx;
+  height: 140rpx;
+  position: fixed;
+  right: 15rpx;
+  bottom: 170rpx;
+  /* right: 33 rpx;
+  bottom: 0 rpx; */
+}
+
+.find {
+  position: fixed;
+  width: 80rpx;
+  height: 80rpx;
+  right: 27rpx;
+  top: 50rpx;
+}

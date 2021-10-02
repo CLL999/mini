@@ -1,0 +1,13 @@
+ .loadType{
+   margin-top: 800rpx;
+ }
+ button{
+   margin-top: 20rpx;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}

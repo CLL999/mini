@@ -1,0 +1,5 @@
+<input type="text" bindinput="taskid" placeholder="输入id修改"></input>
+<input type="text" bindinput="tasktitle" placeholder="输入修改后的标题"></input>
+<input type="text" bindinput="taskauthor" placeholder="输入修改后的作者"></input>
+<input type="text" bindinput="taskcontent" placeholder="输入修改后的内容"></input>
+<button bindtap="update" type="primary">修改</button>

@@ -1,0 +1,53 @@
+.back {
+  width: 130rpx;
+  height: 130rpx;
+  position: fixed;
+  bottom: 130rpx;
+  right: 50rpx;
+  z-index: 100;
+}
+
+.container {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  
+}
+
+.area {
+  background-color: white;
+  margin: 60rpx 30rpx;
+  border-radius: 15rpx;
+  min-height: 1000rpx;
+  box-shadow: blueviolet 10rpx 10rpx 5rpx;
+  word-wrap: break-word;
+  padding: 30rpx 30rpx;
+  white-space: pre-wrap;
+}
+
+.title{
+  font-size: x-large ;
+  font-weight: bolder;
+}
+
+.author{
+  font-size: larger;
+  font-weight: lighter;
+}
+
+.delete {
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom: 150rpx;
+  left: 50rpx;
+}
+
+.update {
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom: 140rpx;
+  left: 325rpx;
+}

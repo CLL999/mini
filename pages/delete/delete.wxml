@@ -1,0 +1,2 @@
+<input type="text" class="delete" placeholder="输入id删除" bindinput="task"></input>
+<button type="primary" bindtap="delete">删除</button>

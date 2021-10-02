@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="search">
+    <image src="/pic/add.png" bindtap="add"></image>
+    <input type="text" placeholder="计划待添加...." value="{{input}}" bindinput="input" bindconfirm="add" />
+  </view>
+  <block wx:if="{{todos.length}}">
+    <view class="todos">
+      <view class="item{{item.completed?' completed':''}}" wx:for="{{todos}}" wx:key="index" bindtap="toggle" data-index="{{index}}">
+          <icon type="{{item.completed?'success':'circle'}}"></icon>
+          <text>{{item.name}}</text>
+          <icon type="clear" size="20px" catchtap="remove" data-index="{{index}}"></icon>
+      </view>
+    </view>
+    <view class="footer">
+      <text bindtap="toggleall">全选/全不选</text>
+      <text wx:if="{{leftcount}}"> 剩余{{leftcount}}个项目</text>
+      <text bindtap="clear">清空已完成~</text>
+    </view>
+  </block>
+  <view wx:else class="tip">无事发生..</view>
+</view>

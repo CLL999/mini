@@ -1,0 +1,36 @@
+input {
+  border: 10rpx solid #ccc;
+  border-radius: 50rpx;
+  background-color: #7AC2A5;
+  margin: 50rpx 30rpx;
+  padding: 20rpx 20rpx;
+}
+
+textarea {
+  width: 70%;
+  min-height: 1000rpx;
+  position: fixed;
+  background-color: #8AD39D;
+  border: 10rpx solid #ccc;
+  margin: 50rpx 80rpx;
+  border-radius: 50rpx;
+  padding: 20rpx 20rpx;
+}
+.container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #76AFA4;
+}
+
+.submit {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 320rpx;
+  bottom: 250rpx;
+  border-radius: 50rpx;
+  background-color: #8AD39D;
+  z-index: 1000;
+  opacity: 0.5;
+}

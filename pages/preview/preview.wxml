@@ -1,0 +1,11 @@
+<wxs src="/tools/tools.wxs" module="tools"></wxs>
+<view class="container">
+  <view class="area">
+    <view class="title">{{title}}</view>
+    <view class="author">{{author}}</view>
+    <text class="content" decode="true" user-select="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{tools.replaceLine(content)}}</text>
+  </view>
+  <image src="/pic/back.png" class="back" bindtap="back"></image>
+  <image wx:if="{{nickName === author}}" src="/pic/delete.png" class="delete" bindtap="delete"></image>
+  <image wx:if="{{nickName === author}}" src="/pic/update.png" class="update" bindtap="update"></image>
+</view>

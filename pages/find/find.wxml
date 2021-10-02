@@ -1,0 +1,15 @@
+<wxs src="/tools/tools.wxs" module="tools"></wxs>
+<input type="text" placeholder="输入作者查找" bindinput="task" value="{{value}}"></input>
+<button type="primary" bindtap="find">查询</button>
+
+<view class="article">
+  <view wx:for="{{findlist}}" wx:key="index" class="area" data-index="{{index}}" bindtap="Toread">
+    <view class="show">
+      {{item.title}}
+      <view></view>
+      {{item.author}}
+      <view></view>
+      <text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{tools.replaceLine(item.content)}}</text>
+    </view>
+  </view>
+</view>
